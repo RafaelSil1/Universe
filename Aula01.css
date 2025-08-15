@@ -1,0 +1,14 @@
+.cabecalho {
+    background-color: #f2f3f4; /*Cor De Fubndo*/
+    display: flex;  /*Deixando Os Itens Lado a Lada*/
+    justify-content: center;  /*Organização Dos Conteúdos*/
+    align-items: center;  /*Alinhamento Vertical*/
+}
+
+.img-header {
+    width: 4%; /*Largura Da Minha Imagem*/
+}
+
+.titulo-header {
+    font-size: 20px; /*Tamanho Da Letra*/
+}

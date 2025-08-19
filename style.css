@@ -218,6 +218,46 @@ hr {
 
 @media (max-width: 400px) {
 
+    .nave ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-left: 10px;
+        gap: 10px;
+    }
+
+    .nave li {
+        padding-bottom: 0;
+    }
+
+    .nave a {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .nave {
+        width: 20px;
+        margin: 0;
+    }
+
+    .img-header {
+        margin-left: 6px;
+        width: 20px;
+    }
+
+    .cabecalho {
+        width: 390px;
+        gap: 15px;
+        
+    }
+
+    .text-header {
+        font-size: 20px;
+    }
+
+
     .img-principal {
         height: 300px;
         width: 390px;

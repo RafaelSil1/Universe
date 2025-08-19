@@ -215,3 +215,143 @@ footer {
 hr {
     margin: 0;
 }
+
+@media (max-width: 400px) {
+
+    .img-principal {
+        height: 300px;
+        width: 390px;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cardinfo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardinfo h2 {
+        display: flex;
+        margin-left: 210px;
+        margin-bottom: 0px;
+        text-align: center;
+        width: 220px;
+    }
+
+    .cardinfo p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 140px;
+        width: 350px;
+    }
+
+    .cardinfo img {
+        margin-right: 50px;
+        margin-bottom: 80px;
+        height: 300px;
+        width: 350px;
+    }
+
+    .lactea {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-section {
+        margin-top: 0;
+        margin-left: 2px;
+        height: 250px;
+        width:250px;
+
+    }
+
+    .text {
+        margin-top: 5px;
+        margin-left: 0;
+        width: 370px;
+    }
+
+    .card-lactea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .img-lactea {
+        height: 300px;
+        width: 350px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .conju {
+        margin-top: 40px;
+        width: 385px;
+    }
+
+    .solar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .img-solar {
+        margin-left: 0;
+        margin-right: 0;
+        width: 350px;
+    }
+
+    .text-solar {
+        margin-top: 30px;
+        margin-left: 0;
+        width: 370px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 390px;
+    }
+
+    .img-logo {
+        width: 20px;
+    }
+
+    .logo-title {
+        font-size: 15px;
+    }
+
+    .rede {
+        display: flex;
+        justify-content: center;
+        margin-right: 90px;
+        margin-bottom: 0;
+        width: 100px;
+    }
+
+    .rede img {
+        width: 10px;
+    }
+
+}

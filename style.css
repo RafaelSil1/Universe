@@ -72,7 +72,6 @@ body {
     margin-left: 20px;
     width: 700px;
     color: white;
-    background-color: black;
 }
 
 .paragrafo h2 {
@@ -166,6 +165,7 @@ body {
     width: 1250px;
 }
 
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -248,7 +248,7 @@ hr {
     }
 
     .cabecalho {
-        width: 390px;
+        width: 400px;
         gap: 15px;
         
     }
@@ -259,8 +259,8 @@ hr {
 
 
     .img-principal {
-        height: 300px;
-        width: 390px;
+        height: 200px;
+        width: 400px;
     }
 
     section {
@@ -279,7 +279,7 @@ hr {
 
     .cardinfo h2 {
         display: flex;
-        margin-left: 210px;
+        margin-left: 250px;
         margin-bottom: 0px;
         text-align: center;
         width: 220px;
@@ -290,8 +290,18 @@ hr {
         justify-content: center;
         align-items: center;
         margin-top: 5px;
-        margin-left: 140px;
         width: 350px;
+    }
+
+    .paragrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 200px;
+        margin-right: 50px;
+        margin-left: 0;
+        width: 400px;
     }
 
     .cardinfo img {
@@ -306,6 +316,7 @@ hr {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin-top: 100px;
     }
 
     .img-section {
@@ -319,7 +330,7 @@ hr {
     .text {
         margin-top: 5px;
         margin-left: 0;
-        width: 370px;
+        width: 360px;
     }
 
     .card-lactea {
@@ -341,7 +352,7 @@ hr {
 
     .conju {
         margin-top: 40px;
-        width: 385px;
+        width: 400px;
     }
 
     .solar {
@@ -364,14 +375,18 @@ hr {
     .text-solar {
         margin-top: 30px;
         margin-left: 0;
-        width: 370px;
+        width: 360px;
+    }
+
+    hr {
+        width: 400px;
     }
 
     footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 390px;
+        width: 400px;
     }
 
     .img-logo {

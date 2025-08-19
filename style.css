@@ -1,40 +1,40 @@
 body {
     margin: 0;
     background-color: #000000;
+    font-family: Arial, sans-serif;
 }
 
+/* ===== CABEÇALHO ===== */
 .cabecalho {
     background-color: black;
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
-    height: 95px;
-    gap: 30px;
+    justify-content: space-between;
+    padding: 15px 20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-
 .img-header {
-    color: white;
     box-shadow: 0px 0px 6px 6px white;
     border-radius: 40px;
-    margin-left: 20px;
-    width: 4%;
+    width: 40px;
+    height: auto;
 }
 
 .text-header {
-    display: flex;
-    justify-content: left;
     color: white;
-}
-
-.nave {
-    margin-left: 760px;
+    font-size: 1.2rem;
 }
 
 .menu-header ul {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-header li {
@@ -44,160 +44,167 @@ body {
 .menu-header a {
     color: white;
     text-decoration: none;
+    font-size: 0.9rem;
 }
 
+/* ===== PRINCIPAL ===== */
 .img-principal {
-    height: 400px;
-    width: 1350px;
+    width: 100%;
+    max-width: 1350px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .cardinfo {
     display: flex;
-    flex-direction: row-reverse;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 0px;
-    height: 300px;
-    width: 1200px;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
 }
 
 .cardinfo img {
-    border-radius: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .paragrafo {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: 20px;
-    width: 700px;
     color: white;
+    max-width: 700px;
 }
 
 .paragrafo h2 {
-    display: flex;
-    align-items: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    height: 50px;
-    width: 220px;
     color: rgb(255, 0, 43);
+    margin-bottom: 15px;
 }
 
 .paragrafo p {
-    font-size: 18px;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
+/* ===== SEÇÃO LÁCTEA ===== */
 .lactea {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 0 15px;
 }
 
 .title {
-    margin-top: 150px;
-    margin-bottom: 40px;
+    margin: 60px 0 30px 0;
     color: rgb(4, 0, 255);
 }
 
 .img-section {
-    margin-left: 400px;
-    height: 60%;
-    width: 40%;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
 }
 
 .text {
-    margin-top: 50px;
-    margin-left: 170px;
-    width: 1000px;
+    margin: 20px auto;
+    max-width: 900px;
     color: white;
 }
 
+/* ===== CARD LÁCTEA ===== */
 .card-lactea {
     display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 1200px;
 }
 
 .img-lactea {
-    width: 35%;
+    width: 100%;
+    max-width: 400px;
     border: solid 3px white;
-    border-radius: 50px;
-    margin-right: 20px;
-    margin-left: 75px;
+    border-radius: 20px;
+    height: auto;
 }
 
 .conju {
     color: white;
-    font-size: 17px;
-    width: 700px;
+    font-size: 1rem;
+    max-width: 700px;
+    text-align: center;
 }
 
 .conju h2 {
     color: #ff9900;
 }
 
+/* ===== SEÇÃO SOLAR ===== */
 .solar {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
 }
 
 .titulo {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin: 50px 0 20px 0;
     color: red;
+    font-size: 1.5rem;
 }
 
 .img-solar {
-    margin-left: 220px;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
 }
 
 .text-solar {
     color: white;
     text-align: center;
-    margin-left: 40px;
-    margin-bottom: 95px;
-    width: 1250px;
+    margin: 20px auto 60px auto;
+    max-width: 1100px;
 }
 
-
+/* ===== RODAPÉ ===== */
 footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     background-color: #1d1d1d;
+    padding: 20px;
+    gap: 15px;
+    text-align: center;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logo-title {
     color: white;
-
+    font-size: 1rem;
 }
 
 .img-logo {
-    color: white;
     box-shadow: 0px 0px 6px 6px white;
     border-radius: 40px;
-    margin-left: 20px;
-    width: 10%;
+    width: 40px;
+    height: auto;
 }
 
 .rede {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin-right: 20px;
-    margin-bottom: 10px;
     gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rede h3 {
@@ -209,224 +216,65 @@ footer {
     display: flex;
     align-items: center;
     text-decoration: none;
-    gap: 10px;
+    gap: 5px;
 }
 
 hr {
     margin: 0;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #444;
 }
 
-@media (max-width: 400px) {
+/* ===== BREAKPOINTS ===== */
 
-    body {
-
-        width: 400px;
-        margin: 0;
-    }
-
-    .nave ul {
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin-left: 20px;
-        gap: 10px;
-    }
-
-    .nave li {
-        padding-bottom: 0;
-    }
-
-    .nave a {
-        display: flex;
-        text-align: center;
-        align-items: center;
-    }
-
-
-    .nave {
-        width: 20px;
-        margin: 0;
-    }
-
-    .img-header {
-        margin-left: 6px;
-        width: 20px;
-    }
-
-    .cabecalho {
-        width: 420px;
-        gap: 20px;
-        
-    }
-
-    .text-header {
-        font-size: 20px;
-    }
-
-
-    .img-principal {
-        height: 200px;
-        width: 420px;
-    }
-
-    section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    article {
-        width: 400px;
-    }
-
+/* Tablets */
+@media (min-width: 768px) {
     .cardinfo {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 400px;
-    }
-
-    .cardinfo h2 {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        text-align: center;
-        width: 220px;
-    }
-
-    .cardinfo p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;
-        margin-right: 20px;
-        margin-bottom: 30px;
-        margin-left: 0;
-        width: 400px;
-    }
-    
-    .cardinfo img {
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
-        margin-bottom: 80px;
-        height: 300px;
-        width: 300px;
-    }
-
-    .paragrafo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 200px;
-        margin-left: 0;
-        width: 400px;
-    }
-
-
-    .lactea {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 20px;
-        margin-top: 100px;
-    }
-
-    .img-section {
-        margin-top: 0;
-        margin-left: 2px;
-        height: 250px;
-        width:250px;
-
-    }
-
-    .text {
-        margin-top: 5px;
-        margin-left: 0;
-        width: 360px;
+        flex-direction: row-reverse;
+        text-align: left;
     }
 
     .card-lactea {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .img-lactea {
-        height: 300px;
-        width: 350px;
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .conju {
-        margin-top: 40px;
-        width: 385px;
-    }
-
-    .solar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 16px;
-        width: 400px;
-    }
-
-    .titulo {
-        margin-bottom: 50px;
-        font-size: 20px;
-    }
-
-    .img-solar {
-        margin-left: 0;
-        margin-right: 0;
-        width: 350px;
-    }
-
-    .text-solar {
-        margin-top: 30px;
-        margin-left: 0;
-        width: 360px;
-    }
-
-    hr {
-        width: 418px;
+        flex-direction: row;
+        text-align: left;
     }
 
     footer {
-        display: flex;
         flex-direction: row;
-        align-items: center;
-        width: 420px;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+    .text-header {
+        font-size: 1.4rem;
     }
 
-    .img-logo {
-        margin-left: 6px;
-        width: 20px;
+    .menu-header a {
+        font-size: 1rem;
     }
 
-    .logo-title {
-        font-size: 15px;
+    .titulo {
+        font-size: 2rem;
     }
 
-    .rede {
-        display: flex;
-        justify-content: center;
-        margin-right: 90px;
-        margin-bottom: 0;
-        width: 100px;
+    .paragrafo p,
+    .text,
+    .text-solar {
+        font-size: 1.1rem;
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1440px) {
+    .img-principal {
+        max-width: 1600px;
     }
 
-    .rede img {
-        width: 10px;
+    .text-solar {
+        max-width: 1300px;
     }
-
 }
